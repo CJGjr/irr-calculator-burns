@@ -4,6 +4,15 @@ import numpy_financial as npf
 
 st.title("Real Estate ROI Calculator")
 
+# Description of cases
+st.write("""
+**Scenario Descriptions:**
+
+- **Bear:** Prolonged decrease in property values, high initial and ongoing vacancy, negative rent growth compared to expense growth.
+- **Base:** Our conservative assumptions on slight decrease in market values, high initial vacancy and moderate vacancy thereafter, and slight positive rent growth compared to expense growth.
+- **Bull:** Neutral or increasing property value, low initial vacancy, and near zero vacancy thereafter, and moderate rent growth compared to expenses.
+""")
+
 # User selects the case
 case = st.selectbox("Select Case", ["Bear", "Base", "Bull"])
 
