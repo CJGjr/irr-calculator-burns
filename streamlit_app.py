@@ -2,7 +2,17 @@ import streamlit as st
 import numpy as np
 import numpy_financial as npf
 
-st.title("Real Estate ROI Calculator")
+st.title("Sterling Apartments IRR Calculator")
+
+# Display a local image
+st.header("Sterling Property")
+
+st.image("images/sterling-property.png", caption="Sterling Property", use_column_width=True)
+
+st.write("""
+We're excited to offer investors the opportunity to invest in Sterling Realty Apartments, a 72-unit multifamily property located in Barrington, NH, a Class-B submarket in the seacoast region of New Hampshire. This deal was sourced off-market, direct-to-seller, from a direct mail letter. We only competed with two other buyers, enabling us to secure this deal at below-market pricing.
+         """)
+
 
 # Description of cases
 st.write("""
