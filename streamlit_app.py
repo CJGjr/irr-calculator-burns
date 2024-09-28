@@ -1,5 +1,8 @@
 import streamlit as st
 
+# Set the page configuration, including title and favicon
+st.set_page_config(page_title="Sterling Apartments IRR Calculator", page_icon="🏢")
+
 st.title("Sterling Apartments IRR Calculator")
 
 # Display a local image
